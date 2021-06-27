@@ -39,13 +39,13 @@ const Todos = (props) => {
 		<div class="input-group mb-3">
 			<input
 				type="text"
-				class="form-control"
+				className="form-control"
 				placeholder="What do you need to do?"
 				onChange={(e) => handleChange(e)}
 				value={todo}
 			/>
 			<div class="input-group-append">
-				<button class="btn btn-primary" type="button" onClick={() => add()}>Add</button>
+				<button className="btn btn-primary" type="button" onClick={() => add()}>Add</button>
 			</div>
 		</div>
 	);

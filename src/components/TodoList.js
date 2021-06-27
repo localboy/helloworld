@@ -31,10 +31,10 @@ const TodoList = (props) => {
         <div className="row justify-content-center pt-3">
             <div className="col-md-8 col-sm-12">
                 <Todos />
-                <div class="btn-group" role="group" aria-label="Basic example">
-                    <button type="button" class="btn btn-primary" onClick={() => setSort("active")}>Active</button>
-                    <button type="button" class="btn btn-primary" onClick={() => setSort("completed")}>Completed</button>
-                    <button type="button" class="btn btn-primary" onClick={() => setSort("all")}>All</button>
+                <div className="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" className="btn btn-primary" onClick={() => setSort("active")}>Active</button>
+                    <button type="button" className="btn btn-primary" onClick={() => setSort("completed")}>Completed</button>
+                    <button type="button" className="btn btn-primary" onClick={() => setSort("all")}>All</button>
                 </div>
                 <div className="displaytodos">
 

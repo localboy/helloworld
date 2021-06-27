@@ -38,12 +38,12 @@ const TodoItem = (props) => {
 						/>
 					</div>
 					<div className="col-md-1 col-sm-2 col-xs-4">
-						<div class="btn-group-vertical btn-group-sm" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-outline-primary" onClick={() => changeFocus()}><AiFillEdit /></button>
+						<div className="btn-group-vertical btn-group-sm" role="group" aria-label="Basic example">
+							<button type="button" className="btn btn-outline-primary" onClick={() => changeFocus()}><AiFillEdit /></button>
 							{item.completed === false ?
-								<button type="button" class="btn btn-outline-success" onClick={() => completeTodo(item.id)}><IoCheckmarkDoneSharp /></button>
-								: <button type="button" class="btn btn-success disabled"><IoCheckmarkDoneSharp /></button>}
-							<button type="button" class="btn btn-outline-danger" onClick={() => removeTodo(item.id)}><IoClose /></button>
+								<button type="button" className="btn btn-outline-success" onClick={() => completeTodo(item.id)}><IoCheckmarkDoneSharp /></button>
+								: <button type="button" className="btn btn-success disabled"><IoCheckmarkDoneSharp /></button>}
+							<button type="button" className="btn btn-outline-danger" onClick={() => removeTodo(item.id)}><IoClose /></button>
 						</div>
 					</div>
 				</div>
